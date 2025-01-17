@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Orrery web page that displays NEO </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- SOLAR SYSTEM -->
+  <div class="container">
+    <div class="sun">
+      <img src="sun01.png" alt="sun">
+    </div>
+    <div class="mercury"></div>
+    <div class="venus"></div>
+    <div class="earth">
+      <div class="moon"></div>
+    </div>
+    <div class="mars"></div>
+    <div class="jupiter"></div>
+    <div class="saturn"></div>
+    <div class="uranus"></div>
+    <div class="neptune"></div>
+  </div>
+
+<!-- MENU --> 
+<div class="menu-container">
+<div class="hamburger-menu" style="color: white;">&#9776;</div>
+<div class="dropdown-content">
+    <a href="info.html">ABOUT</a>
+</div>
+</div>
+
+<!-- SEARCH BAR -->
+<div class="search">
+  <a href="#"><button id="homebutton">🚀</button></a>
+  <input type="text" id="searchbox" placeholder="                Search">
+  <button id="searchbutton">🔍</button><br>
+  <div id="results"></div>
+</div>
+
+<!-- FILTERS -->
+<div class="filters-container">
+<div class="filters">FILTERS</div>
+<div class="filters-content">
+  <li><input type="checkbox" value="satellites" name="Satellites" id="satellites">Satellites</li>
+  <li><input type="checkbox" value="commets" name="Commet" id="commets">Commets</li>
+  <li><input type="checkbox" value="asteroids" name="Asteroids" id="asteroids">Asteroids</li>
+  <li><input type="checkbox" value="planets" name="Planets" id="planets">Planets</li>
+  <li><input type="checkbox" value="orbits" name="Orbits" id="orbits">Orbits</li>
+  <li><input type="checkbox" value="stars" name="stars" id="stars">Stars</li>
+</div>
+</div>
+
+<!-- FUNCTION KEYS -->
+ <div class="functionkeys">
+  <button class="keys">⛶</button><br>
+  <button class="keys">🗖</button><br>
+  <button class="keys">+</button><br>
+  <button class="keys">-</button><br>
+  <button class="keys">👁</button>
+ </div>
+
+ <!-- FOOTER -->
+<footer>
+  MADE BY ANONYMOUS FACES
+</footer>
+
+<script src="script01.js"></script>
+</body>
+</html>

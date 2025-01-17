@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(space.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    background: linear-gradient(to right, #090979, #00d4ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
+
+.back {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    border: solid;
+}
+
+div {
+    top: 50px;
+    font-size: 30px;
+}
+
+.mercury-container {
+    width: 425px;
+    top: 70px;
+    left: 32px;
+    background-image: url(mercury01.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: bottom 50px left 290px;
+}
+
+#mercury {
+    text-align: center;
+    color: white;
+}
+
+.venus-container {
+    width: 425px;
+    top: 70px;
+    right: 50px;
+    background-image: url(venus01.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: top 0.1em right 0.5%;
+}
+
+#venus {
+    text-align: center;
+    color: white;
+}
+
+.earth-container {
+    top: 300px;
+    right: 806px;
+    background-image: url(earth01.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: top 0.5px left 315px;
+}
+
+#earth {
+    text-align: center;
+    color: white;
+}
+
+.mars-container {
+    width: 425px;
+    height: 188;
+    top: 300px;
+    right: 50px;
+    background-image: url(mars01.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: top 6px left 315px;
+}
+
+#mars {
+    text-align: center;
+    color: white;
+}
+
+.jupiter-container {
+    width: 425px;
+    top: 530px;
+    left: 30px;
+    background-image: url(jupiter01.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: top 6px left 325px;
+}
+
+#jupiter {
+    text-align: center;
+    color: white;
+}
+
+.saturn-container {
+    width: 425px;
+    top: 530px;
+    right: 50px;
+    background-image: url(saturn01.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: top 3px left 318px;
+}
+
+#saturn {
+    text-align: center;
+    color: white;
+}
+
+.uranus-container {
+    width: 425px;
+    top: 760px;
+    right: 810px;
+    background-image: url(uranus01.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: top 5px left 315px;
+}
+
+#uranus {
+    text-align: center;
+    color: white;
+}
+
+.neptune-container {
+    width: 425px;
+    top: 760px;
+    right: 50px;
+    background-image: url(neptune01.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    color: grey;
+    background-position: top 3px left 300px;
+}
+
+#neptune {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    bottom: 5px;
+}
